@@ -1,0 +1,105 @@
+/*.profile-card {
+    background-color: hsla(60, 100%, 50%, .4);
+}
+.head, .content {
+    background-color: #00ff00;
+} 
+.name-headline, .profile-image, .infobox, .about, .awards {
+    background-color: #dd7e6b;
+}
+
+.intro {
+    background-color: aqua;
+}
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+/* Pozicionálás */
+.profile-card {
+    width: 700px;
+    max-width: calc(100vw - 10px);
+  }
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.name-headline, th, h2 {
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+}
+
+th {
+    width: 150px;
+    height: 40px;
+    text-align: left;
+}
+
+td {
+    width: 380px;
+    text-align: left;
+}
+
+figcaption {
+    font-family: 'Fira Code', monospace;
+    font-size: 12px;
+    text-align: center;
+}
+
+.head, .content {
+    padding: 1.15%;
+}
+
+.name-headline {
+    width: 100%;
+    text-align: left;
+}
+
+.intro{
+    width: 100%;
+}
+
+.infobox {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+}
+
+img {
+    width: 175.5px;
+    height: 225px;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+.awards {
+    padding-top: 10px;
+}
+
+.content {
+    line-height: normal;
+}
+
+.profile-card {
+    background-color: hsla(0, 0%, 100%, .5);
+    border-radius: 4px;
+    box-shadow: hsla(0, 0%, 0%, .5) 10px 10px 20px;
+  }
